@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="he">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>פרטים אישיים - תומר מדמוני</title>
+    <style>
+      /* עיצוב כללי */
+      body {
+        font-family: "Arial", sans-serif;
+        text-align: right;
+        direction: rtl;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f8ff;
+        color: #333;
+      }
+
+      nav {
+        background-color: #4caf50;
+        padding: 15px;
+        text-align: center;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-size: 1rem;
+        font-weight: bold;
+        transition: color 0.3s;
+      }
+
+      nav a:hover {
+        color: #ffeb3b;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 20px auto;
+        background: #fff;
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      }
+
+      h1,
+      h2,
+      h3 {
+        color: #333;
+      }
+
+      h1 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+        color: #4caf50;
+      }
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      ul li {
+        margin-bottom: 10px;
+      }
+
+      .section {
+        margin-bottom: 30px;
+      }
+
+      .gallery {
+        display: flex;
+        gap: 15px;
+        margin-top: 20px;
+      }
+
+      .gallery img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s, box-shadow 0.3s;
+      }
+
+      .gallery img:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html" aria-label="פרטים אישיים">פרטים אישיים</a>
+      <a href="summary.html" aria-label="תקציר מקצועי">תקציר מקצועי</a>
+      <a href="experience.html" aria-label="ניסיון מקצועי">ניסיון מקצועי</a>
+      <a href="education.html" aria-label="השכלה">השכלה</a>
+      <a href="skills.html" aria-label="כישורים">כישורים</a>
+      <a href="interests.html" aria-label="תחומי עניין">תחומי עניין</a>
+      <a href="contact.html" aria-label="יצירת קשר">יצירת קשר</a>
+    </nav>
+
+    <div class="container">
+      <section id="personal-info">
+        <h1>קורות חיים - תומר מדמוני</h1>
+        <div class="gallery">
+          <img src="WIN_20250115_19_18_41_Pro.jpg" alt="תמונה 1" />
+          <img src="WIN_20250115_19_18_10_Pro.jpg" alt="תמונה 2" />
+          <img src="WIN_20250115_19_18_55_Pro.jpg" alt="תמונה 3" />
+        </div>
+        <h2>פרטים אישיים</h2>
+        <ul>
+          <li><strong>שם מלא:</strong> תומר מדמוני</li>
+          <li><strong>תאריך לידה:</strong> 28.12.1979</li>
+          <li><strong>מקום מגורים:</strong> אילת, ישראל</li>
+          <li><strong>טלפון:</strong> 054-9057905</li>
+          <li>
+            <strong>דוא"ל:</strong>
+            <a href="mailto:tomermadmoni@gmail.com">tomermadmoni@gmail.com</a>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </body>
+</html>
